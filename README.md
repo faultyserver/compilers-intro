@@ -1,6 +1,6 @@
 # Where Would I Even Start?: Compilers
 
-This repository contains a simple interpreter for algebraic expressions, built to demonstrate some core compiler concepts. This is a companion to the [blog post I wrote](link don't exist yet). The entire codebase is just over 300 lines.
+This repository contains a simple interpreter for algebraic expressions, built to demonstrate some core compiler concepts. This is a companion to the [blog post I wrote on Compilers](https://teamgaslight.com/blog/compilers). The entire codebase is just over 300 lines.
 
 This interpreter is capable of parsing expressions including any combination of the 4 basic mathematic operators (`+`, `-`, `*`, `/`), and assignments to variables. Operands for the operators may only be integer values or variable references. For example, the following is a valid program:
 
