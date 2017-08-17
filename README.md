@@ -1,6 +1,24 @@
 # Where Would I Even Start?: Compilers
 
-This repository contains a simple interpreter for algebraic expressions, built to demonstrate some core compiler concepts. This is a companion to the [blog post I wrote](link don't exist yet).
+This repository contains a simple interpreter for algebraic expressions, built to demonstrate some core compiler concepts. This is a companion to the [blog post I wrote](link don't exist yet). The entire codebase is just over 300 lines.
+
+This interpreter is capable of parsing expressions including any combination of the 4 basic mathematic operators (`+`, `-`, `*`, `/`), and assignments to variables. Operands for the operators may only be integer values or variable references. For example, the following is a valid program:
+
+```
+@a = 2 + 2
+@b = 1 + 3 * 3
+@c = b / a
+```
+
+For simplicity, running a program will print out the stack contents and the symbol table after execution. For the above, this would appear as:
+
+```
+Stack contents: []
+Variables:
+    a = 4
+    b = 10
+    c = 2.5
+```
 
 
 ## Installation
