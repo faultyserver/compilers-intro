@@ -76,7 +76,6 @@ class Lexer
     end
 
     # Return the newly read token
-    # @current_token.value = @buffer.to_s[0..-1]
     @current_token
   end
 
